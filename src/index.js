@@ -29,9 +29,6 @@ class TwitterLogin extends Component {
       .query({
         query: this.props.requestTokenQuery
       })
-      .then(response => {
-        return response.json();
-      })
       .then(result => {
         let authenticationUrl = `https://api.twitter.com/oauth/authenticate?oauth_token=${
           result.data.twitterRequestToken
