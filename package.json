@@ -1,19 +1,17 @@
 {
   "name": "@mihaben/react-twitter-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Twitter loging component, working with Apollo",
   "scripts": {
     "build:develop": "cross-env NODE_ENV=development webpack src/index.js lib/react-twitter-auth-component.js",
     "build:production": "cross-env NODE_ENV=production webpack src/index.js lib/react-twitter-auth-component.min.js",
     "lint": "eslint src/ --fix",
-    "clean": "rm -rf node_modules && rm -rf bin",
-    "test": "jest --config jest.config.json --coverage",
-    "coveralls": "cat coverage/lcov.info | coveralls"
+    "clean": "rm -rf node_modules && rm -rf bin"
   },
   "main": "lib/react-twitter-auth-component.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GenFirst/react-twitter-auth.git"
+    "url": "git+https://github.com/mihaben/react-twitter-auth.git"
   },
   "keywords": [
     "React",
