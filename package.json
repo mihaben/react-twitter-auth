@@ -1,7 +1,7 @@
 {
-  "name": "react-twitter-auth",
-  "version": "0.0.13",
-  "description": "A Twitter loging component",
+  "name": "@mihaben/react-twitter-auth",
+  "version": "1.0.0",
+  "description": "A Twitter loging component, working with Apollo",
   "scripts": {
     "build:develop": "cross-env NODE_ENV=development webpack src/index.js lib/react-twitter-auth-component.js",
     "build:production": "cross-env NODE_ENV=production webpack src/index.js lib/react-twitter-auth-component.min.js",
